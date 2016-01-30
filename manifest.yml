@@ -1,0 +1,7 @@
+---
+applications:
+- buildpack: https://github.com/cloudfoundry/staticfile-buildpack.git
+  host: luna-html-${random-word}
+  name: helloworld-ataichi
+  memory: 256M
+  stack: cflinuxfs2
